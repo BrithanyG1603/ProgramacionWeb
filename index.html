@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Udemy Brithany</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page">
+
+    <header class="header">
+        <div class="logo">CSS3,Flex,Grid</div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#flexbox">Flexbox</a></li>
+                <li><a href="#grid">Grid</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <aside class="sidebar">
+        <h3>Temas del curso</h3>
+        <ul>
+            <li><a href="#">1. CSS Básico</a></li>
+            <li><a href="#">2. Selectores</a></li>
+            <li><a href="#">3. Box Model</a></li>
+            <li><a href="#">4. Flexbox</a></li>
+            <li><a href="#">5. CSS Grid</a></li>
+        </ul>
+    </aside>
+
+    <main class="main">
+
+        <section class="intro" id="inicio">
+            <h1>Implementando lo aprendido del curso</h1>
+            <p>
+                Esta página está aplicando los conceptos que se enseñan en el 
+                <strong>Curso de CSS3, Flexbox y CSS Grid Layout</strong> 
+            </p>
+        </section>
+
+        <section class="cards" id="grid">
+            <article class="card">
+                <div class="card-header">
+                    <h3>CSS Básico</h3>
+                </div>
+                <div class="card-body">
+                    <p>Selectores, colores, tipografía, márgenes, paddings, fondos y el modelo de caja.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn">Ver</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-header">
+                    <h3>Flexbox</h3>
+                </div>
+                <div class="card-body">
+                    <p>display: flex, direction, justify-content, align-items, gap y flex-grow.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn">Ver</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-header">
+                    <h3>CSS Grid</h3>
+                </div>
+                <div class="card-body">
+                    <p>Cuadrículas, grid-template-columns, grid-areas y diseño de páginas completas.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn">Ver</a>
+                </div>
+            </article>
+        </section>
+
+        <section class="demo-flex" id="flexbox">
+            <h2>Demo rápida de Flexbox</h2>
+            <div class="flex-container">
+                <div class="flex-item">Item 1</div>
+                <div class="flex-item">Item 2</div>
+                <div class="flex-item">Item 3</div>
+                <div class="flex-item">Item 4</div>
+            </div>
+            <p class="demo-note">
+                Los elementos de arriba usan <code>display: flex</code>, <code>gap</code>, 
+                <code>flex-wrap</code> y <code>flex: 1 1 120px</code>.
+            </p>
+        </section>
+
+ 
+            <h2>¿Qué se usó en esta página?</h2>
+            <ul class="lista-conceptos">
+                <li><strong>Grid</strong> → estructura general (header, sidebar, main, footer)</li>
+                <li><strong>Flexbox</strong> → menú de navegación y tarjetas internas</li>
+                <li><strong>CSS básico</strong> → colores, tipografía, bordes, sombras, hover</li>
+                <li><strong>Responsive</strong> → en móvil todo se apila en una sola columna</li>
+            </ul>
+        </section>
+
+    </main>
+    
+    <footer class="footer">
+        <p>
+            Ejemplo creado siguiendo el curso de CSS3, Flexbox y CSS Grid Layout
+        </p>
+    </footer>
+
+</div>
+
+</body>
+</html>
